@@ -1,0 +1,382 @@
+/* Global Styles */
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding-top: 70px; /* Prevent content from hiding under navbar */
+}
+
+h2, h3, h4 {
+    font-family: "Lobster", cursive;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #1a1a2e;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-family: "Lobster", cursive;
+    color: #d0b200; /* Gold color */
+    font-size: 28px;
+    
+}
+
+.navbar-brand:hover {
+    color: #ff7043; /* Orange on hover */
+}
+
+.nav-link {
+    color: #f0f0f0;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #d0b200; /* Gold color */
+}
+
+/* About Us Section */
+.about-section {
+    background-color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.about-section-heading {
+    font-size: 36px;
+    font-weight: 700;
+    color: #183b56;
+    margin-bottom: 20px;
+}
+
+.about-section-description {
+    font-size: 18px;
+    font-weight: 300;
+    color: #777;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+/* History and Mission Sections */
+.about-section h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #183b56;
+    margin-bottom: 15px;
+}
+
+.about-section p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.row {
+    margin-bottom: 40px;
+}
+
+/* Awards Section */
+.awards-section {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+
+.awards-section-heading {
+    font-size: 36px;
+    font-weight: 700;
+    color: #183b56;
+    margin-bottom: 20px;
+}
+
+.awards-description {
+    font-size: 18px;
+    font-weight: 300;
+    color: #777;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+.award-card {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.award-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+.award-image {
+    max-width: 80%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.award-title {
+    font-size: 22px;
+    font-weight: 600;
+    color: #183b56;
+}
+
+.award-description {
+    font-size: 16px;
+    color: #777;
+    margin-top: 10px;
+}
+
+/* Services Section */
+.services-section {
+    background-color: #fff;
+    padding: 60px 0;
+}
+
+.services-section-heading {
+    font-size: 36px;
+    font-weight: 700;
+    color: #183b56;
+    margin-bottom: 20px;
+}
+
+.services-description {
+    font-size: 18px;
+    font-weight: 300;
+    color: #777;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+.service-card {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    margin-bottom: 30px;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+.service-icon {
+    font-size: 40px;
+    color: #d0b200;
+    margin-bottom: 15px;
+}
+
+.service-title {
+    font-size: 22px;
+    font-weight: 600;
+    color: #183b56;
+    margin-top: 15px;
+}
+
+.service-description {
+    font-size: 16px;
+    color: #777;
+    margin-top: 10px;
+}
+
+/* Menu Highlights Section */
+.menu-highlights-section {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+
+.menu-highlights-heading {
+    font-size: 36px;
+    font-weight: 700;
+    color: #183b56;
+    margin-bottom: 20px;
+}
+
+.menu-highlights-description {
+    font-size: 18px;
+    font-weight: 300;
+    color: #777;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+.menu-item-card {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.menu-item-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+.menu-item-image {
+    max-width: 80%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.menu-item-title {
+    font-size: 22px;
+    font-weight: 600;
+    color: #183b56;
+    margin-top: 15px;
+}
+
+.menu-item-description {
+    font-size: 16px;
+    color: #777;
+    margin-top: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #1a1a2e;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.social-icons {
+    margin-top: 15px;
+}
+
+.social-icons a {
+    font-size: 20px;
+    color: white;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #ff7043; /* Hover effect */
+}
+
+/* Responsive Styles */
+@media (max-width: 767px) {
+    .about-section-description {
+        font-size: 16px; /* Smaller font on mobile */
+    }
+
+    .service-title, .award-title, .menu-item-title {
+        font-size: 20px;
+    }
+
+    .service-description, .award-description, .menu-item-description {
+        font-size: 14px;
+    }
+
+    .service-card, .award-card, .menu-item-card {
+        padding: 15px;
+    }
+}
+/* Navigation Bar */
+.navbar {
+    background-color: #1a1a2e; /* Deep Navy */
+    backdrop-filter: blur(10px);
+  }
+  
+  .navbar-toggler {
+    border: none; /* Remove default border */
+    background-color: transparent; /* Transparent background */
+    padding: 10px; /* Padding around the icon */
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #d0b200; /* Gold color for the hamburger icon */
+    width: 30px; /* Width of the hamburger lines */
+    height: 3px; /* Height of the hamburger lines */
+    border-radius: 5px; /* Slight rounding of the lines */
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar-toggler-icon::before,
+  .navbar-toggler-icon::after {
+    content: "";
+    display: block;
+    background-color: #d0b200; /* Matching the icon's color */
+    width: 30px;
+    height: 3px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+  }
+  
+  .navbar-toggler:hover .navbar-toggler-icon {
+    background-color: #ff7043; /* Hover effect color */
+  }
+  
+  .navbar-toggler:focus {
+    outline: none; /* Remove the outline on focus */
+    box-shadow: 0 0 0 2px rgba(255, 112, 67, 0.8); /* Focus ring effect for accessibility */
+  }
+  
+  /* When the navbar is expanded, style the links */
+  .navbar-collapse {
+    background-color: #1a1a2e; /* Match the navbar background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add shadow to dropdown */
+  }
+  
+  .navbar-nav .nav-link {
+    color: #f0f0f0; /* White text for nav links */
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #d0b200; /* Gold hover effect */
+  }
+  
+  .navbar-nav .nav-item.active .nav-link {
+    color: #d0b200; /* Active link color */
+  }
+  
+  /* Mobile view */
+  @media (max-width: 991px) {
+    .navbar-toggler-icon {
+      background-color: #d0b200; /* Keep gold for the hamburger icon */
+    }
+  
+    /* When menu is open, animate the toggler icon to transform into a close button */
+    .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon::before {
+      transform: rotate(45deg) translate(5px, 5px); /* Rotate top line */
+    }
+  
+    .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon::after {
+      transform: rotate(-45deg) translate(5px, -5px); /* Rotate bottom line */
+    }
+  
+    /* Adjust the navbar items in mobile */
+    .navbar-nav {
+      text-align: center;
+    }
+  
+    .navbar-nav .nav-item {
+      padding: 10px 0;
+    }
+  
+    .navbar-collapse {
+      display: block;
+      padding-top: 20px;
+    }
+  }
+  

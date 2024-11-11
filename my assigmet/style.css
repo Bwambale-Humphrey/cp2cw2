@@ -1,0 +1,430 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  padding-top: 70px; /* Ensure no content is hidden behind the navbar */
+  overflow-x: hidden; /* Hide any horizontal overflow */
+}
+
+/* Navigation Bar */
+.navbar {
+  background-color: #1a1a2e; /* Deep Navy */
+  backdrop-filter: blur(10px);
+}
+
+.navbar-brand {
+  font-family: "Lobster", cursive;
+  color: #d0b200; /* Gold for brand name */
+  font-size: 28px;
+  
+}
+.navbar-brand {
+  padding-left: 15px;
+}
+
+
+.nav-link {
+  color: #f0f0f0;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #d0b200; /* Gold hover effect */
+}
+
+.nav-item.active .nav-link {
+  color: #d0b200; /* Gold for active link */
+}
+
+/* Banner Section */
+.banner-section-bg-container {
+  background-image: url(wall.jpg);
+  height: 100vh; /* Full viewport height */
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  z-index: 1; /* To ensure content is above background */
+}
+
+.banner-heading {
+  font-family: "Lobster", cursive;
+ 
+  font-size: 60px;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  margin-bottom: 20px;
+}
+
+.banner-caption {
+  font-family: "Lobster", cursive;
+  font-size: 28px;
+  font-weight: 300;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+  margin-bottom: 20px;
+  
+}
+
+/* WCU Section */
+.wcu-section {
+  background-color: #f9fbfe;
+  padding: 60px 0;
+}
+
+.wcu-section-heading {
+  color: #183b56;
+  
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.wcu-card {
+  text-align: center;
+  background-color: white;
+  border: 1px solid #e5eaf4;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.wcu-card img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.wcu-card-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.wcu-card-description {
+  font-size: 16px;
+  color: #7b8794;
+  margin-top: 10px;
+}
+
+/* Cards Hover Effect */
+.wcu-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
+
+/* Explore Menu Section */
+.explore-menu-section {
+  background-color: white;
+  padding: 60px 0;
+}
+
+.menu-card {
+  background-color: white;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.2s;
+}
+
+.menu-card img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.menu-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Team Section Styles */
+.team-section {
+  background-color: #f8f9fa; /* Light background for the section */
+}
+
+.team-section-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  
+  margin-bottom: 15px;
+}
+
+.team-section-description {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.team-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.team-card:hover {
+  transform: translateY(-10px); /* Add some lift effect on hover */
+}
+
+.team-card-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%; /* Circular image */
+}
+
+.team-card-name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333;
+  margin-top: 15px;
+}
+
+.team-card-role {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #777;
+}
+
+.team-card-description {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 10px;
+}
+/* Styling for the Order Now button */
+.order-now-btn {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 30px;
+  background-color: #1a1a2e; /* Dark background color */
+  color: #fff; /* White text */
+  border: 2px solid #1a1a2e; /* Border color matching the background */
+  border-radius: 30px; /* Rounded corners */
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out; /* Smooth transition for hover effects */
+}
+
+/* Hover effect */
+.order-now-btn:hover {
+  background-color: #333;
+  border-color: #333;
+  color: #fff; /* Keep text white */
+  transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+
+/* Focus state for accessibility */
+.order-now-btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(255, 112, 67, 0.8); /* Focus ring for better accessibility */
+}
+/* Hover effect for menu cards */
+.menu-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu-card:hover {
+  transform: translateY(-10px); /* Slight lift effect */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Style for the Order Now button inside menu */
+.menu-item-link {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 8px 20px;
+  background-color: #1a1a2e;
+  color: white;
+  border: 2px solid #1a1a2e;
+  border-radius: 25px;
+  text-decoration: none;
+  margin-top: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.menu-item-link:hover {
+  background-color: #333;
+  border-color: #333;
+  color: white;
+  transform: scale(1.05);
+}
+
+/* Styling for the See More button */
+.see-more-btn {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 30px;
+  background-color: #1a1a2e;
+  color: white;
+  border-radius: 30px;
+  border: 2px solid #1a1a2e;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease-in-out;
+}
+
+.see-more-btn:hover {
+  background-color: #ff7043;
+  border-color: #ff7043;
+  color: white;
+  transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+/* Focus state for the See More button */
+.see-more-btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(255, 112, 67, 0.8);
+}
+/* Initially hide the extra menu items */
+.extra-menu-items {
+  display: none;
+}
+
+/* Show extra menu items when the checkbox is checked */
+#toggleMenu:checked + .extra-menu-items {
+  display: flex;
+}
+
+/* Styling for the "See More" button */
+.toggle-button {
+  cursor: pointer;
+  text-align: center;
+}
+.welcome-section {
+  background-color: #f5f5f5;
+  color: #333;
+  padding: 60px 0;
+}
+
+.welcome-heading {
+  
+  font-size: 36px;
+  font-weight: bold;
+  color: #1a1a2e;
+}
+
+.welcome-description {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.welcome-subtext {
+  font-size: 16px;
+  color: #777;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.btn-primary {
+  background-color: #1a1a2e;
+  border-color: #1a1a2e;
+  padding: 12px 30px;
+  font-size: 18px;
+}
+
+.btn-primary:hover {
+  background-color: #333;
+  border-color: #333;
+}
+/* Navigation Bar */
+.navbar {
+  background-color: #1a1a2e; /* Deep Navy */
+  backdrop-filter: blur(10px);
+}
+
+.navbar-toggler {
+  border: none; /* Remove default border */
+  background-color: transparent; /* Transparent background */
+  padding: 10px; /* Padding around the icon */
+}
+
+.navbar-toggler-icon {
+  background-color: #d0b200; /* Gold color for the hamburger icon */
+  width: 30px; /* Width of the hamburger lines */
+  height: 3px; /* Height of the hamburger lines */
+  border-radius: 5px; /* Slight rounding of the lines */
+  transition: background-color 0.3s ease;
+}
+
+.navbar-toggler-icon::before,
+.navbar-toggler-icon::after {
+  content: "";
+  display: block;
+  background-color: #d0b200; /* Matching the icon's color */
+  width: 30px;
+  height: 3px;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+
+.navbar-toggler:hover .navbar-toggler-icon {
+  background-color: #ff7043; /* Hover effect color */
+}
+
+.navbar-toggler:focus {
+  outline: none; /* Remove the outline on focus */
+  box-shadow: 0 0 0 2px rgba(255, 112, 67, 0.8); /* Focus ring effect for accessibility */
+}
+
+/* When the navbar is expanded, style the links */
+.navbar-collapse {
+  background-color: #1a1a2e; /* Match the navbar background */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add shadow to dropdown */
+}
+
+.navbar-nav .nav-link {
+  color: #f0f0f0; /* White text for nav links */
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #d0b200; /* Gold hover effect */
+}
+
+.navbar-nav .nav-item.active .nav-link {
+  color: #d0b200; /* Active link color */
+}
+
+/* Mobile view */
+@media (max-width: 991px) {
+  .navbar-toggler-icon {
+    background-color: #d0b200; /* Keep gold for the hamburger icon */
+  }
+
+  /* When menu is open, animate the toggler icon to transform into a close button */
+  .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon::before {
+    transform: rotate(45deg) translate(5px, 5px); /* Rotate top line */
+  }
+
+  .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon::after {
+    transform: rotate(-45deg) translate(5px, -5px); /* Rotate bottom line */
+  }
+
+  /* Adjust the navbar items in mobile */
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .navbar-nav .nav-item {
+    padding: 10px 0;
+  }
+
+  .navbar-collapse {
+    display: block;
+    padding-top: 20px;
+  }
+}

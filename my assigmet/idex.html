@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Vykingz</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #1a1a2e;">
+        <a class="navbar-brand" href="#">Hotel Vykingz</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ourchef.html">Our Chef</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Banner Section -->
+    <div class="banner-section-bg-container d-flex justify-content-center flex-column">
+        <div class="text-center">
+            <h1 class="banner-heading mb-3">Best of the best hotel</h1>
+            <p class="banner-caption mb-4">Come join us</p>
+        </div>
+    </div>
+    <!-- Welcome Section -->
+    <div class="welcome-section py-5" id="welcomeSection">
+        <div class="container text-center">
+            <h2 class="welcome-heading mb-4">Welcome to Hotel Vykingz</h2>
+            <p class="welcome-description mb-4">
+                Step into a world where comfort, luxury, and unforgettable experiences await.
+                At Hotel Vykingz, we don’t just offer rooms, we offer a home away from home.
+            </p>
+            <p class="welcome-subtext mb-5">
+                Whether you're here for business or leisure, we ensure your stay is filled with
+                moments that make you feel special. Indulge in the finest hospitality, exceptional
+                service, and a warm, inviting atmosphere that will make you never want to leave.
+            </p>
+            <a href="#roomsSection" class="btn btn-primary btn-lg">Explore Our Rooms</a>
+        </div>
+    </div>
+
+
+    <!-- Why Choose Us Section -->
+    <div class="wcu-section pt-5 pb-5" id="wcuSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="wcu-section-heading">Why Choose Us?</h1>
+                    <p class="wcu-section-description">
+                        We use both original recipes and classic versions of famous food items.
+                    </p>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="wcu-card p-3">
+                        <img src="images/8.jpg" class="wcu-card-image" alt="Food Service">
+                        <h1 class="wcu-card-title mt-3">Food Service</h1>
+                        <p class="wcu-card-description">
+                            Experience fine dining at the comfort of your home.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="wcu-card p-3">
+                        <img src="images/9.jpg" class="wcu-card-image" alt="Fresh Food">
+                        <h1 class="wcu-card-title mt-3">Fresh Food</h1>
+                        <p class="wcu-card-description">
+                            Fresh-cut fruits and vegetables directly from our partner farms.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="wcu-card p-3">
+                        <img src="images/10.jpg" class="wcu-card-image" alt="Best Offers">
+                        <h1 class="wcu-card-title mt-3">Best Offers</h1>
+                        <p class="wcu-card-description">
+                            Food Coupons & Offers up to <span class="offers">50% OFF</span>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Explore Menu Section -->
+    <div class="explore-menu-section pt-5 pb-5" id="exploreMenuSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="menu-section-heading">Explore Menu</h1>
+                </div>
+
+                <!-- Initial visible menu items -->
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="menu-card">
+                        <img src="images/13.jpg" class="menu-item-image" alt="Spaghetti Bolognese">
+                        <h3 class="menu-card-title">Spaghetti Bolognese</h3>
+                        <p class="menu-item-description">Classic Italian pasta with rich meat sauce.</p>
+                        <a href="#" class="menu-item-link">Order Now</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="menu-card">
+                        <img src="images/15.jpg" class="menu-item-image" alt="Caesar Salad">
+                        <h3 class="menu-card-title">Caesar Salad</h3>
+                        <p class="menu-item-description">Fresh romaine lettuce with creamy dressing.</p>
+                        <a href="#" class="menu-item-link">Order Now</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="menu-card">
+                        <img src="images/17.jpg" class="menu-item-image" alt="Margherita Pizza">
+                        <h3 class="menu-card-title">Margherita Pizza</h3>
+                        <p class="menu-item-description">Classic pizza with fresh mozzarella and basil.</p>
+                        <a href="#" class="menu-item-link">Order Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hidden checkbox to control "See More" toggle -->
+            <input type="checkbox" id="toggleMenu" class="d-none">
+
+            <!-- Hidden extra menu items (only visible when checkbox is checked) -->
+            <div class="row extra-menu-items">
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="menu-card">
+                        <img src="images/18.jpg" class="menu-item-image" alt="Penne Alfredo">
+                        <h3 class="menu-card-title">Penne Alfredo</h3>
+                        <p class="menu-item-description">Creamy pasta with a rich Alfredo sauce.</p>
+                        <a href="#" class="menu-item-link">Order Now</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="menu-card">
+                        <img src="images/15.jpg" class="menu-item-image" alt="Tiramisu">
+                        <h3 class="menu-card-title">Tiramisu</h3>
+                        <p class="menu-item-description">Classic Italian dessert with coffee and mascarpone.</p>
+                        <a href="#" class="menu-item-link">Order Now</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="menu-card">
+                        <img src="sea.jpg" class="menu-item-image" alt="Fettuccine Carbonara">
+                        <h3 class="menu-card-title">Fettuccine Carbonara</h3>
+                        <p class="menu-item-description">Pasta in a rich and creamy egg-based sauce with pancetta.</p>
+                        <a href="#" class="menu-item-link">Order Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Label that acts as the "See More" button -->
+            <label for="toggleMenu" class="btn btn-primary mt-4 toggle-button">See More</label>
+        </div>
+    </div>
+
+
+
+    <!-- Rooms Section -->
+    <div class="rooms-section pt-5 pb-5" id="roomsSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="rooms-section-heading">Our Rooms</h1>
+                    <p class="rooms-section-description">
+                        Experience comfort and luxury in our specially designed rooms.
+                    </p>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="room-card p-3">
+                        <img src="images/ro1.jpg" class="room-image" alt="Deluxe Room">
+                        <h3 class="room-title mt-3">Deluxe Room</h3>
+                        <p class="room-description">Spacious and elegantly furnished with a stunning view.</p>
+
+                        <a href="#" class="btn btn-primary order-now-btn">Book Room</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="room-card p-3">
+                        <img src="images/ro2.jpg" class="room-image" alt="Executive Suite">
+                        <h3 class="room-title mt-3">Executive Suite</h3>
+                        <p class="room-description">Luxurious suite with a separate living area and amenities.</p>
+
+                        <a href="#" class="btn btn-primary order-now-btn">Book Room</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="room-card p-3">
+                        <img src="images/ro3.jpg" class="room-image" alt="Standard Room">
+                        <h3 class="room-title mt-3">Standard Room</h3>
+                        <p class="room-description">Comfortable and cozy room ideal for short stays.</p>
+
+                        <a href="#" class="btn btn-primary order-now-btn">Book Room</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- Features Section -->
+    <div id="features" class="text-center pt-5 pb-5">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Specials</h2>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-4 mb-4">
+                    <div class="features-item">
+                        <h3>Tangerine juie</h3>
+                        <img src="images/chi.jpg" class="img-responsive" alt="">
+                        <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+                            assumenda error excepturi optio perferendis aliquam animi corrupti aperiam, velit nemo
+                            provident nisi alias nesciunt, aliquid ab quaerat aut repellat. Quo!</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 mb-4">
+                    <div class="features-item">
+                        <h3>spicer </h3>
+                        <img src="images/18.jpg" class="img-responsive" alt="">
+                        <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem
+                            quis tempore qui omnis! Cumque ut exercitationem neque hic alias sint animi. Numquam
+                            voluptas distinctio debitis laudantium eaque, quibusdam a animi!</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 mb-4">
+                    <div class="features-item">
+                        <h3>Havanah </h3>
+                        <img src="images/12.jpg" class="img-responsive" alt="">
+                        <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam,
+                            deserunt voluptatum omnis, hic sint possimus, molestias nulla dolores voluptas perspiciatis
+                            dolorum esse impedit ducimus culpa repudiandae corporis animi alias quae.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- tip of the day -->
+    <div class="healthy-food-section pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-5">
+                    <div class="text-center">
+                        <img src="images/heal.jpg" class="healthy-food-section-img" />
+                    </div>
+                </div>
+                <div class="col-12 col-md-7">
+                    <h1 class="healthy-food-section-heading">Fresh, Healthy, Organic, Delicious Fruits</h1>
+                    <p class="healthy-food-section-description">
+                        Say no to harmful chemicals and go fully organic with our range of
+                        fresh fruits and veggies. Pamper your body and your senses with
+                        the true and unadulterated gifts from mother nature. with the true
+                        and unadulterated gifts from mother nature.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team Members Section -->
+    <div class="team-section pt-5 pb-5" id="teamSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2 class="team-section-heading">Meet Our Team</h2>
+                    <p class="team-section-description">Our dedicated team of professionals who work hard to make your
+                        experience memorable.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <div class="team-card text-center">
+                        <img src="images/IMG-20230218-WA0121.jpg" class="team-card-image img-fluid" alt="Team Member 1">
+                        <h4 class="team-card-name mt-3">muks Vykingz</h4>
+                        <p class="team-card-role">CEO & Founder</p>
+                        <p class="team-card-description">Muks is the visionary behind the Hotel Vykingz, leading with
+                            passion and innovation.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="team-card text-center">
+                        <img src="images/IMG-20230218-WA0042.jpg" class="team-card-image img-fluid" alt="Team Member 2">
+                        <h4 class="team-card-name mt-3">Humphrey </h4>
+                        <p class="team-card-role">Head Chef</p>
+                        <p class="team-card-description">Humphrey creates our delectable dishes with a focus on quality
+                            and taste.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="team-card text-center">
+                        <img src="images/IMG-20240902-WA0006.jpg" class="team-card-image img-fluid"
+                            alt="Team Member 3">
+                        <h4 class="team-card-name mt-3">JONAH Walu</h4>
+                        <p class="team-card-role">Our fav fan</p>
+                        <p class="team-card-description">Jonah ensures everything runs smoothly and efficiently at
+                            Hotel Vykingz.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white pt-4 pb-4">
+        <div class="container text-center">
+            <p>&copy; 2024 Hotel Vykingz | All Rights Reserved</p>
+            <div class="social-icons">
+                <a href="#" class="text-white mr-3"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="text-white mr-3"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-white mr-3"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    
+    <!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-KyZXEJ6H16U4fZ8soU6z6KBVhQ5R06J8r+zIS5lDgFA+JmLe9pTxC+AT3o7t6T6S" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-1tEYXZTT1PB0TI2X9sWhF9t8JAc0iK00k9+uFfVh6Fbs4fiOp9Vj/JJ7NV7lzZmI" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-4oPzHgF4V6zsgq4UzqulD6TeHqUFCyyGM9Tbz6BJiY7dzBqqcF6rDT08+n8v6bCq" crossorigin="anonymous"></script>
+<script src="main.js"></script>
+
+</body>
+
+</html>

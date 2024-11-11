@@ -1,0 +1,157 @@
+/* Reset some default margin/padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* General Body Styling */
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    padding-top: 50px;
+  }
+  
+  /* Centering the content */
+  .content {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header styling */
+  .heading {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  /* Contact Form Section */
+  #contactForm .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  input.form-control,
+  textarea.form-control {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 12px;
+    width: 100%;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  /* Input focus state */
+  input.form-control:focus,
+  textarea.form-control:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Submit Button */
+  input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  /* Image Styling */
+  img.img-fluid {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  
+  /* Layout for larger screens */
+  @media (min-width: 768px) {
+    .content {
+      margin-top: 40px;
+    }
+  
+    .col-md-6 {
+      padding: 30px;
+    }
+  }
+  
+  /* Mobile-friendly adjustments */
+  @media (max-width: 767px) {
+    .heading {
+      font-size: 2rem;
+    }
+  
+    .content {
+      padding: 20px;
+    }
+  
+    .form-group {
+      margin-bottom: 1rem;
+    }
+  
+    input[type="submit"] {
+      width: 100%;
+    }
+  }
+  
+  /* Card Shadow and Background */
+  .container {
+    background-color: #f4f7fa;
+  }
+  
+  .row.justify-content-center {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /*  Add hover effect for input fields */
+  input.form-control:hover,
+  textarea.form-control:hover {
+    border-color: #0056b3;
+  }
+  /* Footer */
+footer {
+  background-color: #1a1a2e;
+  color: white;
+  padding: 30px 0;
+  text-align: center;
+}
+
+footer p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.social-icons {
+  margin-top: 15px;
+}
+
+.social-icons a {
+  font-size: 20px;
+  color: white;
+  margin: 0 15px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #ff7043;
+}
